@@ -4,16 +4,18 @@
     box-sizing: border-box;
 }
 
+#section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
 body {
     font-family: Arial, sans-serif;
-    margin: auto; padding: auto;
+    margin: 0; padding: 0;
     background-color: #20250b;
 }
 
-header {
-    color: white;
-    padding: auto;
-}
 
 nav {
     background-color: #f0eab7;
@@ -24,15 +26,15 @@ nav {
 }
 
 nav a {
-    background-color: #20250b;
-    color: #f0eab7;
+     
+    color: #867903;
     text-decoration:none;
     padding: 8px 20px; margin: 0 10px;
     border-radius: 20px;
 }
 
 nav a:hover {
-    background-color: #ffffff;
+    
 }
 
 main {
