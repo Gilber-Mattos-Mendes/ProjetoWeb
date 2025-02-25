@@ -26,7 +26,7 @@ nav {
 }
 
 nav a {
-     
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #867903;
     text-decoration:none;
     padding: 8px 20px; margin: 0 10px;
@@ -34,19 +34,13 @@ nav a {
 }
 
 nav a:hover {
-    
-}
-
-main {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    margin: 20px;
+    color: #20250b;
 }
 
 .bloco {
-    
+    width: 70%;
     display: flex;
+    justify-content: center;
     justify-content: space-between;
     gap: 20px;
     padding: 20px;
