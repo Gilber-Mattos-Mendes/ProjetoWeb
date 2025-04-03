@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #20250b;
+    text-align: center;
+    margin: auto;
+}
+
+nav {
+    background-color: #96785b;
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 30px;
+    color: #fde2c9;
+    position: relative;
+}
+
+nav a:hover {
+    background-color: #fde2c9;
+    color:#20250b;
+    transition: background-color 0.5s; 
+}
+
+#conteudo {
+    width: 70%;
+    text-align: center;
+    align-items: center;
+}

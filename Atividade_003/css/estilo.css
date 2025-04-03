@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #30334c;
+}
+
+nav {
+    text-align: center;
+}
+
+.nav-submenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-submenu li {
+    margin-right: 20px;
+    position: relative;
+}
+
+.nav-submenu a {
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+    display: block;
+    border-radius: 5px;
+}
+
+.nav-submenu .submenu:hover > ul {
+    background-color: #454968;
+    display: block;
+}
+
+nav a:hover {
+    background-color: #454968;
+    
+}
+
+.nav-submenu .submenu ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #454968;
+    list-style-type: none;
+    padding: 0;
+    border-radius: 5px;
+}
+
+.menu-submenu .submenu ul li {
+    width: 180px;
+}
+
+.menu-submenu .submenu ul li a {
+    padding: 10px;
+    color: white;
+}
+
+body {
+    background-color: #30334c;
+}
+
+main {
+    margin: auto;
+    width: 80%;
+    padding: 20px;
+}
+
+.bloco1 {
+    background-color: #454968;
+    border-radius: 6px;
+    margin: 0;
+    display: flex;
+}
+
+.card {
+    color: antiquewhite;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card a {
+    background-color:antiquewhite;
+    color:#454968;
+    padding: 10px;
+    list-style-type: none;
+    text-decoration:none;
+    border-radius: 4px;
+}
+
+.card a:hover {
+    background-color: #30334c;
+    color: antiquewhite;
+}
+
+.sobre {
+    color:antiquewhite;
+    padding: 30px;
+    margin-top: 30px;
+    align-items: center;
+}
+
+.float-left img {
+    float: left;
+    margin-right: 15px;
+}
+
+.float-right img {
+    float: right;
+    margin-right: 15px;
+}
